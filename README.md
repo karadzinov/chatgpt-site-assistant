@@ -68,12 +68,12 @@ The assistant uses your site's content to respond contextually via ChatGPT.
 
 * Model: WebsiteContent.php – stores extracted text per URL.
 
-# ✅ Laravel Compatibility
+## ✅ Laravel Compatibility
 Laravel 8, 9, 10, and 12 supported.
 
 PHP 8.0 – 8.4 supported.
 
-## 📄 License
+### 📄 License
 
 This package is open-source software licensed under the [MIT license](LICENSE).
 
