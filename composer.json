@@ -10,18 +10,13 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.1|^8.4",
         "guzzlehttp/guzzle": "^7.0",
-        "illuminate/support": "^8.0|^9.0|^10.0"
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
             "MartinK\\ChatGptSiteAssistant\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "MartinK\\ChatGptSiteAssistant\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -31,12 +26,11 @@
             ]
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
         "post-install-cmd": [
-            "php artisan vendor:publish --tag=migrations --force",
-            "php artisan vendor:publish --tag=config --force"
+            "php artisan vendor:publish --tag=migrations --force"
         ]
     }
 }
