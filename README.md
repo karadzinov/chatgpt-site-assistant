@@ -55,7 +55,7 @@ POST /api/chat
 Example JSON body:
 ```
 {
-  "message": "What are your opening hours?"
+  "question": "What are your opening hours?"
 }
 ```
 The assistant uses your site's content to respond contextually via ChatGPT.
