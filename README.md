@@ -12,8 +12,8 @@ composer require martink/chatgpt-site-assistant
 
 Publish Config and Migrations
 ```bash
-php artisan vendor:publish --tag=chatgpt-site-assistant-config
-php artisan vendor:publish --tag=chatgpt-site-assistant-migrations
+php artisan vendor:publish --tag=config
+php artisan vendor:publish --tag=migrations
 ```
 Then run:
 ```bash
