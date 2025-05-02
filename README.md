@@ -19,7 +19,7 @@ Then run:
 ```bash
 php artisan migrate
 ```
-⚙️ Configuration
+## ⚙️ Configuration
 Add your OpenAI API settings to your .env file:
 ```bash
 OPENAI_API_KEY=your-openai-api-key
@@ -32,7 +32,7 @@ OPENAI_SYSTEM_MESSAGE="You are a helpful assistant for a wedding planning websit
 You can override these in the published config file:
 <pre><code>config/chatgpt-site-assistant.php</code></pre>
 
-🧠 Usage
+## 🧠 Usage
 Step 1: Scan Your Website's Sitemap
 ```bash
 php artisan chatgpt:scan-sitemap http://localhost/sitemap.xml
@@ -59,7 +59,7 @@ Example JSON body:
 }
 ```
 The assistant uses your site's content to respond contextually via ChatGPT.
-# 🧩 Components
+## 🧩 Components
 * Service: ChatGptService.php – handles OpenAI API interaction.
 
 * Command: <code>chatgpt:scan-sitemap</code> – crawls and stores your site's content.
@@ -68,7 +68,7 @@ The assistant uses your site's content to respond contextually via ChatGPT.
 
 * Model: WebsiteContent.php – stores extracted text per URL.
 
-## ✅ Laravel Compatibility
+### ✅ Laravel Compatibility
 Laravel 8, 9, 10, and 12 supported.
 
 PHP 8.0 – 8.4 supported.
