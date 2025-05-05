@@ -1,5 +1,10 @@
 # ChatGPT Site Assistant
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/martink/apigenerator.svg?style=flat-square)](https://packagist.org/packages/martink/apigenerator)
+[![Total Downloads](https://img.shields.io/packagist/dt/martink/chatgpt-site-assistant.svg?style=flat-square)](https://packagist.org/packages/martink/chatgpt-site-assistant)
+[![License](https://img.shields.io/github/license/karadzinov/ApiGenerator.svg?style=flat-square)](https://github.com/karadzinov/ApiGenerator/blob/main/LICENSE)
+
+
 A Laravel package that scans your website's sitemap, extracts content, and connects to OpenAI's ChatGPT API to create an intelligent assistant that understands your site's actual content.
 
 ---
